@@ -1,0 +1,1015 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+ul,ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Nunito', sans-serif;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*--- Body CSS End ---*/
+
+
+/*--- Header CSS Start ---*/
+header {
+    padding: 22px 0;
+    background-color: #67c9bb;
+    position: relative;
+    transition: 0.4s all ease;
+}
+.header_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 15px 0;
+}
+header .container-fluid {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.nav-wrap {
+    display: flex;
+}
+header .navbar-brand {
+    margin-right: 60pt;
+    padding: 0;
+}
+header .navbar-light .navbar-nav li {
+    padding-right: 35px;
+}
+header .navbar-light .navbar-nav li:last-child {
+    padding-right: 0;
+}
+header .navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    padding: 0;
+}
+header .navbar-light .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+header .navbar-expand-lg {
+    padding: 0;
+}
+header .navbar-expand-lg .subscribe {
+    display: none;
+}
+header .subscribe {
+    width: 100%;
+    text-align: right;
+}
+.subscribe-btn {
+    padding: 15px 15px;
+    display: inline-block;
+    line-height: 1;
+    border-radius: 23px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #194f90;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1.5px;
+}
+/*--- Header CSS End ---*/
+
+
+
+
+/*--- Banner CSS Start ---*/
+.banner {
+    background: url(../images/banner-bg.png) center center no-repeat;
+    background-size: cover;
+    padding: 200px 0 170px;
+}
+.banner-content {
+    max-width: 660px;
+}
+.banner h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.banner p {
+    font-size: 24px;
+    line-height: 1.1;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.banner .explore-btn {
+    font-size: 30px;
+    color: #fff;
+    line-height: 1;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    border-radius: 33px;
+    background-color: #67c9bb;
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.link-img img {
+    width: 100%;
+}
+
+
+
+
+.inner-banner {
+    background: url(../images/inner-banner-bg.png) center center no-repeat;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+.inner-banner h2 {
+    font-size: 54px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+/*--- Banner CSS End ---*/
+
+
+
+/*--- Content CSS Start ---*/
+.blocks-section {
+    padding: 200px 0;
+    background-color: #fff;
+}
+.block-col .img {
+    margin-bottom: 20px;
+    position: relative;
+}
+.block-col h3 {
+    font-size: 40px;
+    line-height: 1.1;
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    max-width: 320px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.block-col img {
+    width: 100%;
+}
+.block-col p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #575958;
+    line-height: 1.2;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.block-col p:last-child {
+    margin-bottom: 0;
+}
+/*--- Block CSS End ---*/
+
+
+
+.signup-section {
+    padding: 100px 0;
+    background-color: #e4e5e6;
+}
+.signup-section .icons img {
+    width: 80%;
+}
+.signup-section h4 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #194f90;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+.signup-section p {
+    font-size: 20px;
+    color: #575958;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+.signup-section .signup-btn {
+    line-height: 1;
+    border-radius: 33px;
+    background-color: #5bc3b2;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    padding: 15px 30px;
+}
+/*--- Signup CSS End ---*/
+
+
+/*--- Subscribe Page CSS Start ---*/
+.subscribe-section {
+    padding: 60px 0 140px;
+    background-color: #fff;
+}
+.subscribe-form {
+    background-image: linear-gradient(to bottom, #ffffff, #fdfdfd, #fbfbfb, #f9f9f9, #f7f7f7);
+    padding: 50px 50px;
+}
+.subscribe-form label {
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 10px;
+}
+.subscribe-form .required {
+    font-size: 20px;
+    color: #ff0000;
+}
+.subscribe-form .form-control {
+    background-color: #f6f8fa;
+    height: 60px;
+    border: 2px solid #ced9e4;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #000;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.subscribe-form .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+.form-check label {
+    position: relative;
+    cursor: pointer;
+}
+.form-check {
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+.form-check input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+.form-check label:before {
+    content:'';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #c2c2c2;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 4px;
+    width: 22px;
+    height: 22px;
+}
+.form-check input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 7.5px;
+    width: 8px;
+    height: 15px;
+    border: solid #c2c2c2;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.form-check label {
+    margin-bottom: 0;
+}
+.apply-select span {
+    font-size: 20px;
+    color: #819db8;
+    display: block;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 15px;
+}
+.apply-select,
+.email-frequency {
+    margin-bottom: 30px;
+}
+.subscribe-form textarea.form-control {
+    height: 125px;
+}
+
+.btn-primary {
+    padding: 17px 40px;
+    border-radius: 23px;
+    background-color: #2f63e3;
+    font-weight: 700;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.hubspot {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.hubspot span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #9d9ea0;
+    margin-left: 10px;
+    display: inline-block;
+}
+.hubspot span a {
+    color: #03a2bc;
+}
+/*--- Subscribe Page CSS End ---*/
+
+/*--- About Page CSS Start ---*/
+.about-banner {
+    background: url(../images/about-banner-bg.png) center center no-repeat;
+    background-size: cover;
+    padding: 260px 0 240px;
+}
+.about-banner .banner-content {
+    max-width: 750px;
+}
+.about-banner p {
+    font-size: 50px;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 77px;
+}
+.about-banner span {
+    font-size: 30px;
+    line-height: 1.1;
+    font-weight: 500;
+    color: #fff;
+}
+/*-- About Banner End --*/
+
+.about-content {
+    padding: 100px 0 60px;
+}
+.about-content h3 {
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #194f90;
+    text-transform: uppercase;
+}
+.about-content p {
+    font-size: 20px;
+    color: #575958;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
+
+.leadership-sec  {
+    padding: 80px 0 30px;
+    background-color: #e6e7e8;
+}
+.team-sec {
+    padding: 80px 0 30px ;
+    background-color: #fff;
+}
+.advisors-sec {
+    padding: 80px 0 30px;
+    background-color: #e6e7e8;
+}
+.about-title {
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #194f90;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.leader-img {
+    margin-bottom: 25px;
+}
+.leader-img img {
+    width: 100%;
+}
+.name,
+.designation {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #575958;
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+.designation {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.leadership-sec .col,
+.team-sec .col,
+.advisors-sec .col  {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+    margin-bottom: 50px;
+}
+/*--- About Page CSS End ---*/
+
+
+
+
+/*--- Privacy Page CSS Start ---*/
+.privacy-content {
+    padding: 100px 0;
+}
+.content-inner {
+    margin-bottom: 40px;
+}
+.privacy-content h1 {
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #194f90;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.privacy-content p {
+    font-size: 20px;
+    color: #575958;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.privacy-content h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #67c9bb;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.privacy-content h3 {
+    font-size: 28px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #952585;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+/*--- Privacy Page CSS End ---*/
+
+
+.works-list {
+    background-color: #575958;
+    min-height: 120px;
+}
+.works-list ul {
+    display: flex;
+}
+.works-list .col {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.works-list .col a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.works-list .col a:hover {
+    background-color: #194f90;
+}
+/*--- Content CSS End ---*/
+
+
+
+
+/*--- Footer CSS Start ---*/
+footer {
+    padding: 40px 0;
+    background-color: #952585;
+}
+footer .container-fluid {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.ftr-social {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+.ftr-social a {
+    width: 34px;
+    height: 34px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin-right: 12px;
+    color: #952585;
+    font-size: 24px;
+}
+
+.ftr-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #fff;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.ftr-contact a,
+.ftr-contact p {
+    font-size: 22px;
+    line-height: 1.1;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.ftr-links p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.ftr-links a {
+    color: #fff;
+    margin-right: 100px;
+}
+.ftr-links a:last-child {
+    margin-right: 0;
+}
+.ftr-links a:hover {
+    text-decoration: underline;
+}
+/*--- Footer CSS End ---*/
+
+
+
+
+/*--- Responsive Start ---*/
+@media (max-width: 1366px) {
+    header .container-fluid,
+    footer .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .banner {
+        padding: 150px 0;
+    }
+    .banner h2 {
+        font-size: 46px;
+    }
+    .blocks-section {
+        padding: 100px 0;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    header .navbar-brand {
+        margin-right: 30px;
+    }
+    header .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+    header .navbar-light .navbar-nav li {
+        padding-right: 20px;
+    }
+    .banner h2 {
+        font-size: 40px;
+    }
+    .banner p {
+        font-size: 20px;
+    }
+    .banner .explore-btn,
+    .signup-section .signup-btn {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    .block-col h3 {
+        font-size: 26px;
+        left: 10px;
+        bottom: 10px;
+    }
+    .block-col p {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 16px;
+    }
+
+    .signup-section {
+        padding: 70px 0;
+    }
+    .signup-section h4 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .signup-section p {
+        font-size: 16px;
+    }
+    .ftr-contact a, 
+    .ftr-contact p,
+    .ftr-links p {
+        font-size: 16px;
+    }
+
+    .about-banner {
+        padding: 200px 0;
+    }
+    .about-banner p,
+    .about-content h3,
+    .about-title {
+        font-size: 40px;
+    }
+    .about-banner span {
+        font-size: 24px;
+    }
+    .name, .designation {
+        font-size: 18px;
+    }
+
+    .inner-banner {
+        height: 350px;
+    }
+    .inner-banner h2 {
+        font-size: 46px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    header .col {
+        position: static;
+    }
+    header .navbar-expand-lg {
+        position: absolute;
+        right: 0;
+        top: 100%;
+        background-color: #67c9bb;
+        width: 300px;
+        z-index: 10;
+        border-bottom-left-radius: 20px;
+    }
+    header .navbar-nav {
+        padding: 15px 15px;
+    }
+    header .col:last-child {
+        padding-right: 80px;
+    }
+    .navbar-light .navbar-toggler {
+        padding: 0;
+        border: none;
+        position: absolute;
+        right: 15px;
+        top: -60px;
+        width: 35px;
+        height: 20px;
+        margin: 0px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+    }
+    .header_fixed .navbar-light .navbar-toggler {
+        top: -54px;
+    }
+
+    .navbar-toggler span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+        background-color: #fff;
+        overflow: hidden;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+    }
+    .navbar-toggler span:nth-child(1) {
+        top: 0px;
+    }
+    .navbar-toggler span:nth-child(2) {
+        top: 10px;
+    }
+    .navbar-toggler span:nth-child(3) {
+        top: 20px;
+    }
+    .animated-btn.open span:nth-child(1) {
+        top: 11px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+    .animated-btn.open span:nth-child(2) {
+        opacity: 0;
+        left: -60px;
+    }
+    .animated-btn.open span:nth-child(3) {
+        top: 11px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+    }
+    header .navbar-light .navbar-nav .nav-link {
+        padding: 5px 0;
+    }
+
+
+
+    .ftr-links a {
+        margin-right: 20px;
+    }
+
+    .about-banner {
+        padding: 150px 0;
+    }
+    .about-banner p,
+    .about-content h3,
+    .about-title {
+        font-size: 30px;
+    }
+    .about-banner span {
+        font-size: 20px;
+    }
+    .name, .designation,
+    .about-content p {
+        font-size: 16px;
+    }
+    .about-banner p {
+        margin-bottom: 50px;
+    }
+    .about-content {
+        padding: 70px 0 30px;
+    }
+    .leadership-sec .col, .team-sec .col, .advisors-sec .col {
+        -ms-flex: 0 0 33.333%;
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+        margin-bottom: 30px;
+    }
+    .leadership-sec,
+    .team-sec,
+    .advisors-sec {
+        padding: 70px 0 30px;
+    }
+
+    .privacy-content {
+        padding: 50px 0;
+    }
+    .privacy-content h1 {
+        font-size: 36px;
+    }
+    .privacy-content p {
+        font-size: 16px;
+    }
+    .privacy-content h2 {
+        font-size: 28px;
+    }
+    .privacy-content h3 {
+        font-size: 22px;
+    }
+
+    .inner-banner {
+        height: 300px;
+    }
+    .inner-banner h2 {
+        font-size: 40px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .banner {
+        padding: 100px 0;
+    }
+    .banner-content {
+        margin-bottom: 50px;
+    }
+    .link-img {
+        text-align: center;
+    }
+    .link-img img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .block-col h3 {
+        bottom: 20px;
+        left: 20px;
+    }
+    .signup-section .icons {
+        margin-bottom: 25px;
+    }
+
+    .ftr-links p {
+        text-align: left !important;
+        margin-bottom: 7px;
+    }
+    .about-banner .banner-content {
+        margin-bottom: 0;
+    }
+    .about-title {
+        margin-bottom: 20px;
+    }
+
+
+    .subscribe-form {
+        padding: 30px 5px;
+    }
+    .subscribe-form .form-control {
+        height: 45px;
+        border-radius: 13px;
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+    .subscribe-form label {
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+    .subscribe-section {
+        padding: 50px 0;
+    }
+
+    .works-list .col a {
+        font-size: 16px;
+        height: 80px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .subscribe {
+        display: none;
+    }
+    header .navbar-expand-lg .subscribe {
+        display: block;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    header .navbar-expand-lg .subscribe a {
+        display: block;
+        margin: 0 15px;
+    }
+
+    .about-banner {
+        padding: 100px 0;
+    }
+    .leadership-sec .col, 
+    .team-sec .col, 
+    .advisors-sec .col {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px 0;
+    }
+    header .navbar-brand {
+        margin-right: 0;
+    }
+    .navbar-brand img {
+        width: 100%;
+    }
+    .navbar-light .navbar-toggler {
+        top: -45px;
+    }
+    .header_fixed .navbar-light .navbar-toggler {
+        top: -45px;
+    }
+    .banner {
+        padding: 70px 0;
+    }
+    .banner h2 {
+        font-size: 32px;
+    }
+    .banner p {
+        font-size: 16px;
+    }
+    .link-img img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .blocks-section {
+        padding: 50px 0;
+    }
+    .signup-section h4 {
+        font-size: 30px;
+    }
+
+    .logo-ftr {
+        margin-bottom: 35px;
+    }
+    .ftr-contact {
+        display: block;
+    }
+    .ftr-contact p {
+        margin-bottom: 10px;
+    }
+    .ftr-contact p:last-child {
+        margin-bottom: 0;
+    }
+    .logo-ftr img {
+        width: 100%;
+    }
+
+    .ftr-links,
+    .ftr-links p,
+    .ftr-links p a {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+
+    .leadership-sec .col, 
+    .team-sec .col, 
+    .advisors-sec .col {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about-banner p, .about-content h3, .about-title {
+        font-size: 26px;
+    }
+
+    .inner-banner {
+        height: 200px;
+    }
+    .inner-banner h2 {
+        font-size: 32px;
+    }
+}
+/*--- Responsive End ---*/
